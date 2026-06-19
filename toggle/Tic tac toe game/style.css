@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:rgb(126, 204, 223);
+    text-align:center;
+    
+}
+
+    
+
+
+.container{
+    
+    height:70vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    
+
+}
+.game{
+    height:60vmin;
+    width:60vmin;
+    
+    background-color:red;
+    display:flex;
+    flex-wrap:wrap;
+    
+    justify-content:center;
+    align-items:center;
+    gap:1.5vmin
+    
+
+
+}
+button{
+    height:18vmin;
+    width:18vmin;
+    border-radius:2vmin;
+    border:none;
+    font-size:8vmin;
+    color:black;
+    background-color:white;
+
+
+    
+}
+#reset{
+    padding:1rem;
+    height:2vmin;
+    font-size:1.6vmin;
+    align-items:center;
+    background-color:rgb(165, 147, 28);
+    border-radius:1rem;
+    border:none;
+    
+}
+#new {
+    padding:1rem;
+    height:2vmin;
+    font-size:1.6vmin;
+    align-items:center;
+    background-color:rgb(165, 147, 28);
+    border-radius:1rem;
+    border:none;
+}  
+ #msg{
+    color:yellow;
+} 
+.hide{
+     display:none;
+    /*ise winner or new button hide hoe jayega */
+}
